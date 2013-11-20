@@ -33,7 +33,7 @@
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <receiver android:name="ReceivePlayer">
+            <receiver android:name="com.infantium.android.sdk.ReceivePlayer">
                 <intent-filter>
                     <action android:name="com.infantium.android.sdk.ReceivePlayer"></action>
                 </intent-filter>
